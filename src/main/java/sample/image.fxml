@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: #99CC66;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ImageController">
+   <children>
+      <JFXButton fx:id="btn_choose" layoutX="32.0" layoutY="14.0" onAction="#chooseImage" style="-fx-background-color: #FFFFFF;" text="选择图片" />
+      <JFXButton fx:id="btn_right" layoutX="303.0" layoutY="260.0" onAction="#onRight" style="-fx-background-color: #FFFFFF;" text="顺时针90" />
+      <JFXButton fx:id="btn_left" layoutX="30.0" layoutY="260.0" onAction="#onLeft" style="-fx-background-color: #FFFFFF;" text="逆时针90" />
+      <JFXButton fx:id="btn_compress" layoutX="30.0" layoutY="295.0" onAction="#onCompress" style="-fx-background-color: #FFFFFF;" text="压缩" />
+      <ImageView fx:id="iv_src" fitHeight="202.0" fitWidth="332.0" layoutX="30.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true" style="-fx-border-color: #000000;" />
+      <JFXButton fx:id="btn_open" layoutX="88.0" layoutY="295.0" onAction="#onOpen" style="-fx-background-color: #FFFFFF;" text="打开文件夹" />
+   </children>
+</AnchorPane>
